@@ -262,3 +262,14 @@ button:focus-visible {
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
 }
+
+/* ---------- Impressum / Datenschutz ---------- */
+.legal h3 {
+  font-size: 1rem;
+  margin-top: 1.75rem;
+  margin-bottom: 0.5rem;
+  color: var(--color-accent);
+}
+.legal p {
+  margin-bottom: 0.75rem;
+}
